@@ -4,7 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const hbs = require('hbs');
-require('./app_server/database/models/db');
 require("app_api/database/db");
 
 var indexRouter = require('./app_server/routes/index');
